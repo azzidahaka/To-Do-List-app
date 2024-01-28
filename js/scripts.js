@@ -18,12 +18,13 @@ function newItem() {
     $('#input').val('');
   }
 
+  //function to cross out an item from the list
   function crossOut() {
     li.toggle("strike");
   }
 
   li.on("dblclick", crossOut);
-
+  
   let crossOutButton = $('<crossOutButton></crossOutButton>');
   crossOutButton.append(document.createTextNode("X"));
   li.append(crossOutButton);
