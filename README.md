@@ -1,6 +1,6 @@
 # To-Do-List-app features:
 
-1.Allows user to add new time  to a list
-2.User can remove an item from the list
-3.User can reorder items in list
+-Allows user to add new time  to a list
+-User can remove an item from the list
+-User can reorder items in list
 
